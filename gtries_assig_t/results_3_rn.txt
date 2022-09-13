@@ -1,0 +1,80 @@
+gtrieScanner Results
+------------------------------------------
+General Information
+
+Start of Computation: 00h19m43s 14/09/2022
+End of Computation: 00h19m43s 14/09/2022
+
+Subgraph Size: 3
+Graph File: "rede_fw.txt"
+Directed: YES
+Nr Nodes: 34
+Nr Edges: 176
+
+Method: GTRIE with file containing complete g-trie
+Different Types of Subgraphs Found [Original Network]: 10
+Subgraph Occurrences Found [Original Network]: 1447
+Time for computing census on original network: 0.000383s
+Average time for census on random network: 0.000086s
+
+Number of random networks: 500
+Random seed: 1663111183
+Exchanges per edge: 3
+Number of tries per exchange: 10
+------------------------------------------
+Motif Analysis Results
+
+Graph   Org_Freq |  Z-score |    Rnd_Avg +/-    Rnd_Dev
+
+001
+100
+010           82 |     7.28 |      32.41 +/-       6.81
+
+011
+000
+000          298 |     6.66 |     186.81 +/-      16.71
+
+000
+100
+100          306 |     5.90 |     200.38 +/-      17.91
+
+001
+100
+000          585 |     4.35 |     427.20 +/-      36.31
+
+011
+001
+000          134 |     3.96 |      78.73 +/-      13.95
+
+010
+100
+110            4 |    -2.32 |      11.32 +/-       3.15
+
+011
+101
+000            2 |    -2.82 |      10.96 +/-       3.17
+
+011
+100
+010            3 |    -4.40 |      24.51 +/-       4.89
+
+010
+100
+100           21 |    -5.23 |     108.13 +/-      16.65
+
+011
+100
+000           12 |    -5.74 |     103.06 +/-      15.88
+
+011
+101
+110            0 |     -nan |       0.00 +/-       0.00
+
+011
+100
+100            0 |     -nan |       0.00 +/-       0.00
+
+011
+101
+100            0 |     -nan |       0.00 +/-       0.00
+
